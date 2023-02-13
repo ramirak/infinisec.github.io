@@ -2,11 +2,11 @@
 //
 $(document).ready(function() {
 			$('#fullpage').fullpage({
-				'verticalCentered': false,
-				'scrollingSpeed': 99999,
+				'verticalCentered': true,
+				'scrollingSpeed': 0,
 				'autoScrolling': false,
 				'css3': true,
-				'navigation': true,
+				'navigation': false,
 				'navigationPosition': 'right',
 			});
 		});
